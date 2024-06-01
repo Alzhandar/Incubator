@@ -1,0 +1,53 @@
+body{
+    background: url('../assets/main.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.text{
+    color: #F5F5F5;
+    font-family: Poppins, sans-serif;
+    font-size: 60.209px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.75px; 
+    letter-spacing: -0.591px;
+    text-transform: lowercase;
+}
+
+.menu{
+    display: flex;
+    padding: 0px 17.869px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.935px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    text-decoration: none;
+    gap: 8px;
+}
+
+.icon {
+    width: 32.165px;
+    height: 32.165px;
+}
+
+.logo {
+    width: 102px;
+    height: 54px;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto; 
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px; 
+}

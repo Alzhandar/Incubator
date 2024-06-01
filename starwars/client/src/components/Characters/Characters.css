@@ -1,0 +1,56 @@
+.title{
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 441px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 710px;
+    height: 628px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    background: #141414;
+    padding: 20px;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+
+.link{
+    color: #FFF;
+    text-decoration: underline;
+    margin-right: 5px;
+}
